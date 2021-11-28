@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon-16x16.png">
+    <link rel="manifest" href="./assets/img/site.webmanifest">
+    <!-- RESET CSS-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Projeto Ifood</title>
+</head>
+
+<!--Corpo do Conteúdo-->
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho" id="idCabecalho">
+        <div class="container">
+            <div class="cabecalho_logoIfood">
+                <figure>
+                    <img src="./assets/img/logo.png" alt="Logo">
+                    <figcaption>Logo</figcaption>
+                </figure>
+            </div>
+            <div class="cabecalho_restaurante">
+                <div class="cabecalho_fundoImagem">
+                <img src="./assets/img/restaurante.png" alt="Restaurante">
+                </div>
+                <p>Restaurante</p>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Informações do Restaurante -->
+        <section class="secaoInfoRestaurante">
+            <div class="container">
+                <div class="secaoInfoRestaurante_descricao">
+                    <figure class="secaoInfoRestaurante_logoRestaurante">
+                        <img src="./assets/img/logo-kenzie.png" alt="Kenzie Foods">
+                        <figcaption>Restaurante Kenzie Foods</figcaption>
+                    </figure>
+                        <h1 class="secaoInfoRestaurante_nomeRestaurante">Kenzie Foods</h1>
+                </div>
+
+                <!-- Caixa de Busca-->
+                <div class="secaoInfoRestaurante_pesquisar">
+                    <button>
+                        <img src="./assets/img/lupa.png" alt="Lupa">
+                    </button>
+                    <input type="text" placeholder="Buscar no cardápio">
+                </div>
+            </div>
+        </section>
+
+        <!-- Pratos em Destaque-->
+        <section class="secaoPratosDestaque">
+            <div class="container">
+                <h2 class="secaoPratosDestaque_titulo">Destaques</h2>
+                <!--Lista de Pratos em Destaque-->
+                <ul class="secaoPratosDestaque_listaPratos">
+                   
+                </ul>
+            </div>
+        </section>
+
+    <div class="conteudoPrincipal">
+        <div class="container">
+            <!-- Seção de Sobremesas-->
+            <section class="secaoSobremesas">
+                    <h2 class="secaoSobremesas_titulo">Sobremesas</h2>
+                    <ul class="secaoSobremesas_listaSobremesas">
+                        
+                    </ul>
+            </section>
+
+            <!-- Seção Carrinho -->
+            <section class="secaoCarrinho">
+                <h2 class="secaoCarrinho_titulo">Carrinho</h2>
+                <div class="secaoCarrinho_conteudo">
+                    <!-- Lista de Itens do Carrinho-->
+                    <ul class="secaoCarrinho_listaItens">
+                        
+                    </ul>
+                    <!-- Total -->
+                    <div class="secaoCarrinho_total">
+                        <p>Total</p>
+                        <span>R$ 0,00</span>
+                    </div>
+
+                    <div class="secaoCarrinho_formaPagamento">
+                        <button>Escolher forma de pagamento</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    </main>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
